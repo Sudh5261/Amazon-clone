@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 113px;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg);
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* box 2 */
+.add-first {
+    color: #CCCCCC;
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.add-second {
+    font-size: 14px;
+}
+
+.downarrow {
+    display: inline-block;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+.nav-search {
+    display: flex;
+    width: 620px;
+    height: 35px;
+    border-radius: 3px; 
+    background-color: pink;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.select-search {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-icon {
+    background-color: #febd68;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+}
+
+.search-amazon {
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+}
+
+/* box 4 */
+.nav-country {
+    display: flex;
+    width: 69.38px;
+}
+
+.country-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fa-regular.fa-flag {
+    font-size: 0.5rem;
+}
+
+/* box 5 */
+span {
+    font-size: 12px;
+}
+
+.big-size {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* box 6 */
+.nav-cart {
+    width: 59px;
+    display: flex;
+    font-size: 14px;
+}
+
+#cart {
+    font-size: 25px;
+}
+
+/* pannel */
+.pannel {
+    height: 39px;
+    font-size: 14px;
+    color: white;
+    background-color: #232f3e;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pannel-options p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.pannel-options {
+    display: flex; 
+    width: 80%;
+    font-size: 14px;
+    align-items: center;  
+}
+
+.pannel-all {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.all {
+    font-weight: bold;
+}
+
+/* hero-image */
+.hero-image {
+    background-image: url(hero_image_bg.jpg);
+    height: 350px;
+    display: flex;
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-image-msg {
+    color: #0f1111;
+    background-color: white;
+    height: 40px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.hero-image-msg a {
+    color: #2162A1;
+    text-decoration: none;
+}
+
+/* shop section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d681ff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box {
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 10px 15px 10px;
+}
+
+.box1img {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box1-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box1-content p {
+    display: flex;
+    color: #2162A1;
+}
+
+/* Inner 2x2 Grid Boxes */
+.innerbox-size {
+    height: 105px;
+    width: 115px;
+}
+
+.image-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box2img-part-one {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 15px; /* Fixed high margin that pushed content down */
+}
+
+.box2img-part-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.font-size p {
+    font-size: 12px;
+    color: #0f1111;
+}
+
+.box p {
+    margin-top: 15px;
+    color: #2162A1;
+}
+
+#colorbox {
+    color: black;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.box4img1{
+    height:145px ;
+    background-size: cover;
+    
+}
+.box4img234{
+    height: 75px;
+    width: 112px;
+}
+.box4bigimg p{
+    margin-top: 2px;
+    color:black;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.threeimginbox4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box4img234{
+    background-size: cover;
+}
+.box4bigimg p{
+    display: inline-block;
+}
