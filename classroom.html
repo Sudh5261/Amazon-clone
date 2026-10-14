@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- External CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- 🔹 Header Section -->
     <header>
         <div class="navbar">
-            <!-- box 1 -->
+            <!-- Box 1: Logo -->
             <div class="nav-logo border">
                 <div class="logo"></div>
             </div>
 
-            <!-- box 2 -->
+            <!-- Box 2: Delivery Address -->
             <div class="nav-adress border">
                 <p class="add-first">Deliver to</p>
                 <div class="nav-icon">
@@ -24,7 +27,7 @@
                 </div>
             </div>
 
-            <!-- box 3 -->
+            <!-- Box 3: Search Bar -->
             <div class="nav-search border">
                 <select class="select-search">
                     <option id="navbar-option-all">All</option>
@@ -35,38 +38,41 @@
                 </div>
             </div>
 
-            <!-- box 4 -->
+            <!-- Box 4: Country Selector -->
             <div class="nav-country border">
                 <i class="fa-regular fa-flag"></i>
                 <div class="country-name">EN</div>
                 <i class="fa-solid fa-caret-down"></i>
             </div>
 
-            <!-- box 5 -->
+            <!-- Box 5: Sign-in / Accounts -->
             <div class="sign-in border">
                 <p><span>Hello, Sign in</span></p>
                 <p class="big-size downarrow">Accounts & Lists</p>
-                <i class="fa-solid fa-caret-down "></i>
+                <i class="fa-solid fa-caret-down"></i>
             </div>
 
-            <!-- box 6 -->
+            <!-- Box 6: Returns & Orders -->
             <div class="sign-in border">
                 <p><span>Returns &</span></p>
                 <p class="big-size">Orders</p>
             </div>
 
-            <!-- box 7 -->
+            <!-- Box 7: Cart -->
             <div class="nav-cart border">
                 <i id="cart" class="fa-solid fa-cart-shopping"></i>
                 <p class="big-size">cart</p>
             </div>
         </div>
 
+        <!-- 🔹 Panel Section -->
         <div class="pannel">
+            <!-- Left side: All menu -->
             <div class="pannel-all"> 
                 <i class="fa-solid fa-bars"></i>
                 <div class="all">All</div>
             </div>
+            <!-- Right side: Options -->
             <div class="pannel-options">
                 <p>Prime video</p>
                 <p>Coupans</p>
@@ -79,15 +85,18 @@
         </div>
     </header>
 
+    <!-- 🔹 Hero Image Section -->
     <div class="hero-image">
         <div class="hero-image-msg">
-            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#">Click here to go to amazon.in</a></p>
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. 
+                <a href="#">Click here to go to amazon.in</a>
+            </p>
         </div>
     </div>
 
-    <!-- shop section -->
+    <!-- 🔹 Shop Section -->
     <div class="shop-section">
-        <!-- box 1 -->
+        <!-- Box 1: Gaming -->
         <div class="box1 box">
             <div class="box1-content">
                 <h2>Get your game on</h2>
@@ -95,10 +104,12 @@
                 <p>Shop gaming</p>
             </div>
         </div>
-        <!-- box 2 -->
+
+        <!-- Box 2: Fashion -->
         <div class="box2 box">
             <div class="box2-content">
                 <h2>Shop fashion for</h2>
+                <!-- First row of images -->
                 <div class="box2img-part-one font-size">
                     <div class="box2img-part-one-first">
                         <div class="box2img1 innerbox-size image-cover" style="background-image: url('box2_img1.jpg');"></div>
@@ -110,7 +121,7 @@
                         <p id="colorbox">Top under 25$</p>
                     </div>
                 </div>
-
+                <!-- Second row of images -->
                 <div class="box2img-part-two">
                     <div class="box2img-part-two-first font-size">
                         <div class="book2img3 innerbox-size image-cover" style="background-image: url('box2_img3.jpg');"></div>
@@ -126,31 +137,22 @@
             </div>
         </div>
 
-        <!-- box 4 -->
+        <!-- Box 4: Kitchen Appliances -->
         <div class="box4 box">
             <div class="box-content">
                 <h2>Top category kitchen appliances</h2>
                 <div class="box4">
                     <div class="box4bigimg">
-                        <div class="box4img1" style="background-image: url('box4_img1.jpg');">
-                            
-                        </div>
+                        <!-- Main image -->
+                        <div class="box4img1" style="background-image: url('box4_img1.jpg');"></div>
                         <p>cooker</p>
+                        <!-- Three smaller images -->
                         <div class="threeimginbox4">
-                            <div class="box4img234" style="background-image: url('box4_img2.jpg'); margin-right: 5px;">
-
-                            </div>
-                            
-                            <div class="box4img234" style="background-image: url('box4_img3.jpg');">
-
-                            </div>
-                            
-                            <div class="box4img234" style="background-image: url('box4_img4.jpg'); margin-left: 5px;">
-
-                            </div>
-                            
-
+                            <div class="box4img234" style="background-image: url('box4_img2.jpg'); margin-right: 5px;"></div>
+                            <div class="box4img234" style="background-image: url('box4_img3.jpg');"></div>
+                            <div class="box4img234" style="background-image: url('box4_img4.jpg'); margin-left: 5px;"></div>
                         </div>
+                        <!-- Labels under images -->
                         <p style="margin-right: 39px;">Coffee</p>
                         <p style="margin-right: 9px;">Pots and ...</p>
                         <p>Kettles</p>
@@ -160,10 +162,11 @@
             </div>
         </div>
 
-        <!-- box 3 -->
+        <!-- Box 3: Home Arrivals -->
         <div class="box2 box">
             <div class="box2-content">
                 <h2>New home arrivals under $50</h2>
+                <!-- First row -->
                 <div class="box2img-part-one font-size">
                     <div class="box2img-part-one-first">
                         <div class="box2img1 innerbox-size image-cover" style="background-image: url('box3_img1.jpg');"></div>
@@ -175,7 +178,7 @@
                         <p id="colorbox">Home improvement</p>
                     </div>
                 </div>
-
+                <!-- Second row -->
                 <div class="box2img-part-two">
                     <div class="box2img-part-two-first font-size">
                         <div class="book2img3 innerbox-size image-cover" style="background-image: url('box3_img3.jpg');"></div>
@@ -190,8 +193,6 @@
                 <p>Shop the latest from home</p>
             </div>
         </div>
-
-        
     </div>
 </body>
 </html>
