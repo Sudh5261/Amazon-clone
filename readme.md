@@ -1,15 +1,29 @@
+### 🛒 Amazon Clone – README
 
-## How to Run
-1. Clone or download the project files.
-2. Open `index.html` in any modern browser.
-3. Ensure internet connectivity for **Font Awesome icons**.
+```markdown
+# 🛒 Amazon Homepage Clone
 
-## Notes
-- This is a **static front-end project** (no backend).
-- Images (`hero_image_bg.jpg`, `box2_img1.jpg`, etc.) should be placed in the `assets/` folder.
-- The clone is **UI-focused only** — search and cart functionality are not implemented.
+## Overview
+The **Amazon Clone** replicates the look and feel of Amazon’s homepage. It focuses on navigation, search functionality, and product showcase sections to practice front-end development skills.
 
----
+## Features
+- **Navbar**:
+  - Logo
+  - Delivery address section
+  - Search bar with category dropdown
+  - Language selector
+  - Sign-in / Accounts & Lists
+  - Returns & Orders
+  - Cart
+- **Panel Section**: Quick links (Prime Video, Coupons, Customer Service, Today’s Deals, Registry, Gift Cards, Sell).
+- **Hero Image**: Promotional banner with redirect link to Amazon India.
+- **Shop Section**:
+  - Gaming products
+  - Fashion deals (Jeans, Tops, Dresses, Shoes)
+  - Kitchen appliances (Cooker, Coffee, Pots, Kettles)
+  - Home arrivals (Kitchen, Dining, Decor, Bedding)
 
-✨ Both READMEs are now separated and tailored to each project.  
-Would you like me to also add **badges (like HTML5, CSS3, GitHub Pages)** to make them look more professional on GitHub?
+## Tech Stack
+- **HTML5** for structure
+- **CSS3** for styling
+- **Font Awesome** for icons
